@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger-line{
+    @apply w-[30px] h-[2px] block bg-white my-2 lg:hidden;
+}
+
+.active > span:nth-child(1){
+    @apply rotate-45;
+}
